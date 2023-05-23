@@ -1,0 +1,265 @@
+.error-show {
+    color: red;
+}
+
+.datetimepicker {
+    height: 22px;
+    font-size: inherit;
+}
+
+.dragging li.ui-state-hover {
+    min-width: 240px;
+}
+
+.dragging .ui-state-hover a {
+    color: green !important;
+    font-weight: bold;
+}
+
+.table-calendar thead th,
+.table-calendar td {
+    text-align: right;
+    padding: 2px;
+    border: 1px solid;
+    vertical-align: top;
+}
+
+.table-calendar td {
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.connectedSortable tr,
+.ui-sortable-helper {
+    cursor: move;
+}
+
+.connectedSortable tr:first-child {
+    cursor: default;
+}
+
+.table-calendar thead th {
+    vertical-align: middle !important;
+    background: #ccc;
+    padding: 10px;
+    font-size: 95%;
+    text-align: center;
+}
+
+.table-calendar {
+    border-collapse: collapse;
+    table-layout: fixed;
+    border-spacing: 0;
+}
+
+.tr-holiday-Sa .td-day {
+    color: #2990ff;
+}
+
+.tr-holiday-Su .td-day,
+.tr-holiday .td-day {
+    color: #dc3545;
+}
+
+.table-drag .event {
+    margin: 0;
+    text-align: left;
+    background: #2298d5;
+    color: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 0px 5px;
+    padding-left: 3px;
+    margin-bottom: 2px;
+    max-width: 100% !important;
+    z-index: 2;
+    position: relative;
+}
+
+.ui-state-hover {
+    color: red !important;
+}
+
+.event {
+    cursor: pointer;
+}
+
+.col1 {
+    width: 80px;
+}
+
+.table-drag {
+    padding-bottom: 10px;
+}
+
+.ui-state-highlight {
+    background: #ddd !important;
+    height: 20px;
+    border-radius: 5px !important;
+    margin-bottom: 2px !important;
+    position: relative;
+    z-index: 2;
+}
+
+.td-sale {
+    position: relative;
+}
+
+.sales-all {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+}
+
+.sales {
+    background: #ffe467;
+}
+
+.wrapper {
+    overflow: auto;
+    width: 100%;
+    max-height: calc(100vh - 150px);
+}
+
+.wrapper table {
+    margin: 0;
+    border-spacing: 0;
+}
+
+.wrapper th {
+    white-space: nowrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: -1px;
+    left: -1px;
+}
+
+.wrapper thead tr:first-child th {
+    z-index: 10;
+}
+
+.table-calendar .td-day {
+    vertical-align: middle;
+    padding: 0;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.headcol {
+    position: absolute;
+    left: 2px;
+    top: auto;
+    z-index: 9;
+    font-weight: normal;
+    background: #fff;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+table.table-calendar th {
+    /* Apply both top and bottom borders to the <th> */
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+}
+
+table.table-calendar td {
+    /* For cells, apply the border to one of each side only (right but not left, bottom but not top) */
+    border-bottom: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+}
+
+table.table-calendar th:first-child,
+table.table-calendar td:first-child {
+    /* Apply a left border on the first <td> or <th> in a row */
+    border-left: 1px solid #bbb;
+}
+
+table.table-calendar tbody th::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-right: 2px solid #bbb;
+    display: block;
+    top: 0;
+}
+
+table.table-calendar tbody th::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid #bbb;
+    display: block;
+    top: 0;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                              supported by Chrome, Edge, Opera and Firefox */
+}
+
+.no-drag p {
+    cursor: auto;
+}
+
+table.table-calendar thead th.col1 {
+    z-index: 1000;
+    background: #c1c1c1;
+}
+
+.rightclick {
+    position: fixed;
+    display: none;
+    z-index: 10000;
+    background: #fff;
+}
+
+.rightclick li {
+    list-style: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+.rightclick li:hover {
+    background: #ccc;
+}
+
+.modal-table td {
+    padding: 5px 10px;
+}
+
+.modal-table .tdleft {
+    text-align: right;
+}
+
+.modal-table select {
+    min-width: 150px;
+}
+
+.fa-exchange {
+    transform: rotate(90deg);
+}
+
+.modal-table td.arrow {
+    padding-left: 50px;
+    font-size: 25px;
+}

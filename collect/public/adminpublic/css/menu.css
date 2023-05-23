@@ -1,0 +1,53 @@
+body {
+    max-width: unset;
+}
+
+.mg-body {
+    max-width: 1200px;
+}
+
+nav.menu-list label {
+    padding: 10px;
+    padding-top: 0;
+}
+
+nav.menu-list .btn-close {
+    display: none;
+}
+
+.menu-list {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    z-index: 10000;
+}
+
+nav.menu-list ul {
+    display: none;
+}
+
+nav.menu-list.active ul {
+    display: block;
+}
+
+nav.menu-list.active {
+    border: 1px solid #000;
+    background: #fff;
+    width: 13em;
+}
+
+.menu-list.title-header {
+    top: -2px;
+    left: 44px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1027px) {
+    .title-header {
+        top: -18px;
+        left: 23px;
+        font-size: 18px;
+        position: absolute;
+        z-index: 999;
+    }
+}

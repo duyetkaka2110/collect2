@@ -1,0 +1,12 @@
+.wrapper td {
+    white-space: inherit;
+}
+.wrapper {
+    max-height: calc(100vh - 210px);
+}
+.wrapper tr:first-child th:first-child{
+    z-index: unset;
+}
+.table thead th{
+    vertical-align: middle;
+}

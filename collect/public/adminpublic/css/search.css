@@ -1,0 +1,174 @@
+.w-info {
+    width: 400px;
+}
+
+.wrapper {
+    overflow: auto;
+    width: 100%;
+    max-height: calc(100vh - 225px);
+}
+
+.wrapper table {
+    margin: 0;
+    border-spacing: 0;
+
+}
+
+.wrapper td {
+    white-space: nowrap;
+    background: #FFF;
+    padding: 5px;
+}
+
+.wrapper th {
+    white-space: nowrap;
+    background: #f2f2f2;
+    position: sticky;
+    top: -1px;
+    left: 0;
+}
+
+.wrapper tr:first-child th:first-child {
+    z-index: 1;
+}
+
+@media screen and (max-width: 1075px) {
+
+    .bottom-table {
+        overflow-x: scroll;
+    }
+
+    .table-list {
+        min-width: 880px;
+    }
+}
+
+.mg-content {
+    width: calc(100% - 11em);
+}
+
+nav ul li {
+    padding: 10px;
+
+}
+
+nav ul li span {
+    padding-left: 5px;
+
+}
+
+.table thead {
+    background: #eaeaea;
+    text-align: center;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.table th {
+
+    border-bottom: none;
+}
+
+.table th,
+.table td {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.a-link {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+
+.mg-checkbox {
+    text-align: right;
+    width: 60px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.mg-checkbox input {
+    top: 5px;
+    position: absolute;
+    left: 0;
+}
+
+.form-control {
+    padding: 0;
+    height: 20px;
+    font-size: inherit;
+    width: max-content;
+    display: inline-block;
+    border-color: #ccc;
+    border-radius: 3px;
+}
+
+.mg-select-time {
+    height: 19px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.mg-body {
+    max-width: none;
+}
+
+.mg-select-time2 {
+    position: relative;
+    top: 1px;
+}
+
+.mg-button {
+    margin-top: 20px;
+}
+
+.wrapper tr:first-child th:first-child {
+    z-index: inherit;
+}
+
+.form-control {
+    padding-left: 3px;
+}
+
+@media screen and (max-width: 1600px) {
+    .wrapper {
+        max-height: calc(100vh - 285px);
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .wrapper {
+        max-height: calc(100vh - 340px);
+    }
+}
+
+/* 検索条件テーブル用 */
+.search_item {
+    width: 100%;
+}
+
+.search_item td {
+    vertical-align: bottom;
+}
+
+.mg-search {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.mg-search-title {
+    position: absolute;
+    top: -9px;
+    left: 68px;
+    padding: 0px 13px;
+    background: #fff;
+    font-size: 16px;
+}
+
+.checbox-custom {
+    width: 20px;
+}

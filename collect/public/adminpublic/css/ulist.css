@@ -1,0 +1,218 @@
+.mg-body {
+    max-width: none;
+}
+
+.w-info {
+    width: 400px;
+}
+
+.wrapper {
+    overflow: auto;
+    width: 100%;
+    max-height: calc(100vh - 165px);
+}
+
+.wrapper table {
+    margin: 0;
+    border-spacing: 0;
+
+}
+
+.wrapper td {
+    white-space: nowrap;
+    background: #FFF;
+    padding: 5px;
+}
+
+.wrapper th {
+    white-space: nowrap;
+    background: #f2f2f2;
+    position: sticky;
+    top: -1px;
+    left: 0;
+}
+
+.wrapper tr:first-child th:first-child {
+    z-index: 1;
+}
+
+@media screen and (max-width: 1075px) {
+
+    .bottom-table {
+        overflow-x: scroll;
+    }
+
+    .table-list {
+        min-width: 880px;
+    }
+}
+
+.mg-content {
+    width: calc(100% - 11em);
+}
+
+nav ul li {
+    padding: 10px;
+
+}
+
+nav ul li span {
+    padding-left: 5px;
+
+}
+
+.table thead {
+    background: #eaeaea;
+    text-align: center;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.table th {
+
+    border-bottom: none;
+}
+
+.table th,
+.table td {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.a-link {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+
+.mg-checkbox {
+    text-align: right;
+    width: 60px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.mg-checkbox input {
+    top: 5px;
+    position: absolute;
+    left: 0;
+}
+
+.form-control {
+    padding: 0;
+    height: 20px;
+    font-size: inherit;
+    width: max-content;
+    display: inline-block;
+    border-color: #ccc;
+    border-radius: 3px;
+}
+
+.mg-select-time {
+    height: 19px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.form-temp .temp,
+.form-show .show,
+.form-new .new {
+    display: inline-block;
+}
+
+.btnAdd:hover {
+    text-decoration: underline;
+}
+
+.tb-detail td {
+    padding: 0px 5px;
+}
+
+.m-w-1000 {
+    max-width: 1000px;
+}
+
+.td-1 {
+    width: 100px;
+    vertical-align: top;
+}
+
+.td-2,
+.td-1 {
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.input-1 {
+    width: 200px;
+}
+
+.mg-checkbox {
+    text-align: right;
+    width: 60px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.mg-checkbox input {
+    top: 5px;
+    position: absolute;
+    left: 0;
+}
+
+
+.mg-select-time {
+    height: 19px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.alert-success {
+    top: 55px;
+}
+
+.form-check .mg-btn .btn {
+    display: none;
+}
+
+.form-check .mg-btn .btncheck {
+    display: inline-block;
+}
+
+.table td {
+    padding: 3px;
+}
+
+.table td select.status {
+    width: 80px;
+}
+
+.form-control {
+    padding: 0;
+    height: 20px;
+    font-size: inherit;
+    width: max-content;
+    display: inline-block;
+    border-color: #ccc;
+    border-radius: 3px;
+    padding-left: 3px;
+}
+
+.modal {
+    z-index: 10500;
+}
+
+.mg-input {
+    max-width: 500px;
+}
+
+.filename {
+    font-size: inherit;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: inherit;
+}

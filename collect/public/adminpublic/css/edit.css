@@ -1,0 +1,74 @@
+.content {
+    padding-left: 11em;
+}
+
+.table-custom td input {
+    margin: 5px 0;
+}
+
+.mg-container {
+    width: 600px;
+}
+
+.input-custom {
+    font-size: inherit;
+    padding: 4px 10px;
+    height: inherit;
+    width: 550px;
+}
+
+.tr-input {
+    width: 100%;
+}
+
+.dragging li.ui-state-hover {
+    min-width: 240px;
+}
+
+.dragging .ui-state-hover a {
+    color: green !important;
+    font-weight: bold;
+}
+
+.table-calendar th,
+.table-calendar td {
+    text-align: right;
+    padding: 2px;
+    border: 1px solid;
+    vertical-align: top;
+}
+
+.table-calendar td {
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.connectedSortable tr.tr-input,
+.ui-sortable-helper {
+    cursor: move;
+}
+
+.connectedSortable tr:first-child {
+    cursor: default;
+}
+
+.btnBack {
+    display: none;
+}
+
+.form-disabled .btnCancel,
+.form-disabled .btnAdd,
+.form-disabled .btnOk {
+    display: none;
+}
+
+.form-disabled .btnBack {
+    display: block;
+}
+
+@media screen and (max-width: 1027px) {
+    .title-header {
+        top: -2px;
+        left: 44px;
+    }
+}

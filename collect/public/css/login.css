@@ -1,0 +1,23 @@
+.title-fixed {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.login-margin .input-group-text {
+    display: block;
+    width: 40px;
+}
+
+.mg-login-form {
+    width: 300px;
+    margin: 200px auto 0;
+}
+
+.login-margin {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.login-margin button {
+    width: 100%;
+}

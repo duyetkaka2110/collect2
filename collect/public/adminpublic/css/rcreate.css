@@ -1,0 +1,24 @@
+.tb-detail tr:nth-child(2) .btnDelete {
+    display: none;
+}
+
+@media screen and (max-width: 1027px) {
+    .mg-content {
+        width: calc(100% - 1em);
+    }
+
+    .input-1 {
+        width: 150px;
+    }
+
+    textarea.information {
+        height: 50px;
+        min-width: 100px;
+        margin-top: 5px;
+    }
+}
+
+.CUSTCD_UserID::-webkit-calendar-picker-indicator {
+    display: none;
+    opacity: 0;
+}

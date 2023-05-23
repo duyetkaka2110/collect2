@@ -1,0 +1,54 @@
+.title-fixed {
+    font-size: 20px;
+}
+
+.login-margin {
+    position: static;
+}
+
+main {
+    overflow-x: unset !important;
+}
+
+.margin-body {
+    width: 100% !important;
+}
+
+.title-fixed {
+    width: 100%;
+    position: static;
+    text-align: center;
+}
+
+.login-margin {
+    width: 200px;
+    margin: 0 auto;
+    font-size: 100%;
+}
+
+.login-margin .login-sub-margin {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.login-margin select,
+.login-margin input {
+    width: 100%;
+}
+
+.margin-btn {
+    text-align: center;
+}
+
+.login-sub-margin span {
+    margin-bottom: 5px;
+}
+
+.login-margin button {
+    font-size: 12px;
+}
+
+.loading {
+    display: none;
+}

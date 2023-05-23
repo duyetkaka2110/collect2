@@ -1,0 +1,79 @@
+.form-temp .temp,
+.form-show .show,
+.form-new .new {
+    display: inline-block;
+}
+
+.form-new .btn-color,
+.form-show .btnAdd,
+.form-show .btnCopy,
+.form-check .btnCopy {
+    display: none;
+}
+
+.btnAdd:hover {
+    text-decoration: underline;
+}
+
+.tb-detail td {
+    padding: 0px 5px;
+}
+
+.m-w-1000 {
+    max-width: 1000px;
+}
+
+.td-1 {
+    width: 100px;
+    vertical-align: top;
+}
+
+.td-2,
+.td-1 {
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.input-1 {
+    width: 200px;
+}
+
+.mg-checkbox {
+    text-align: right;
+    width: 60px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.mg-checkbox input {
+    top: 5px;
+    position: absolute;
+    left: 0;
+}
+
+.form-control {
+    font-size: inherit;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 2px 7px;
+    border-color: #999da1;
+    height: 30px;
+}
+
+.mg-select-time {
+    height: 19px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.alert-success {
+    top: 45px;
+}
+
+.form-check .mg-btn .btn {
+    display: none;
+}
+
+.form-check .mg-btn .btncheck {
+    display: inline-block;
+}

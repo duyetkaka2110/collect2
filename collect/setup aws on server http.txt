@@ -1,0 +1,21 @@
+Error: AWS HTTP error: cURL error 60: SSL certificate problem: unable to get local issuer certificate
+
+
+
+Go on Laravel Root Folder -> Vender -> guzzlehttp -> guzzle -> src
+
+open Client.php
+
+find $defaults Array . that look like this way ..
+
+$defaults = [
+    'allow_redirects' => RedirectMiddleware::$defaultSettings,
+    'http_errors'     => true,
+    'decode_content'  => true,
+    'verify'          => true,
+    'cookies'         => false
+];
+Now main Job is to change value of verify key ..
+
+'verify'          => false,
+So After this it will not check SSL Certificate for CURL Request... This Solution is work for me. I find this solution after many research ...
